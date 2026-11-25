@@ -1,0 +1,8 @@
+{
+  "name": "preflight-demo-compromised",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@solana/web3.js": "1.95.6"
+  }
+}
