@@ -15,6 +15,6 @@ jobs:
         with:
           persist-credentials: false
       # Reads package.json and package-lock.json only; nothing is installed, built or run.
-      - uses: lemind/dependency-preflight@98e6c7acf637efbad749eeef65e975e7231ab1f2
+      - uses: lemind/dependency-preflight@2b25fabb525192e98ee71285f43c785258b09e8f
         with:
           case-label: "Controlled test case: historical incident (December 2024 @solana/web3.js compromise). Not a real project."
